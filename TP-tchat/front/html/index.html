@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tchat Darrkhan</title>
+    <script src ="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+  </head>
+
+  <body>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+  </body>
+
+  <script>
+    let socket = io();
+  </script>
+  <script src="../js/main.js"></script>
+
+</html>
